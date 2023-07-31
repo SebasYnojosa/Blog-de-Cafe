@@ -1,6 +1,7 @@
 :root {
     --fuenteHeading: 'Roboto Condensed', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
+    --colorBlanco: #ffffff;
 }
 
 html {
@@ -64,4 +65,18 @@ img {
 
 .centrar-texto {
     text-align: center;
+}
+
+/** Header **/
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header__texto {
+    text-align: center;
+    color: var(--colorBlanco);
+    margin-top: 5rem;
 }
